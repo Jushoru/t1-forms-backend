@@ -1,21 +1,18 @@
-# Бэкенд для работы с формами
+# Формовочный цех. Работа с формами и аутентификацией. Backend.
 
-## Запуск проекта
+Запуск проекта: https://t1-forms.onrender.com
 
-1. Установите зависимости:
+Реализация клиентской части приложения с формами, аутентификацией и управлением пользователями.
+Деплой проекта был сделан на *Render*.
 
-```bash
-npm install
-```
+Данный бекенд представляет собой изменённую копию этого бекенда: https://github.com/Pardeg/forms-server.
+В нем был исправлен тип для userPatch в поле user birthday с IsDate() на IsDateString().
+А также в main.ts добавлена обработка Cors
 
-2. Запуск проекта
+## Backend
+- *Render*:
+  https://t1-forms-backend.onrender.com
 
-```bash
-npm run start
-```
-
-Сервер будет доступен по адресу: http://localhost:4000
-
-### Документация API
-
-Swagger-документация доступна по адресу: http://localhost:4000/api
+## Frontend
+- *GitHub*:
+  https://github.com/Jushoru/t1-forms
